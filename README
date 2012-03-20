@@ -1,13 +1,14 @@
 This script was written as a part of completion of PA duties for the course:
+
 Programming Languages and Compiler Construction (PLCC), II Semester, 2012 at BITS Goa, India.
+
 Intructors: Mr. Ramprasad Joshi (Instructor-In-charge), Mr. Durgesh Samant
 
 Contributions:
 Rachee Singh (PA, PLCC Course)
 Emaad Ahmed Manzoor (PA, PLCC Course)
 
-As a part of the PLCC course, students were asked to develop a parser (using flex and bison)
-which would detect regular polygons. This script was meant to aid the process of evaluation
+As a part of the PLCC course, students were asked to develop a parser (using flex and bison) which would detect regular polygons. This script was meant to aid the process of evaluation
 by generating input (regular polygonal shapes) to test students' code. 
 
 Usage:
@@ -56,8 +57,7 @@ Example:
 000000000000000000000000000000
 
 Remarks:
-This script takes the number of sides of the polygon as input and outputs the corresponding bitmap.
-For drawing the bitmap, Bresenham's Line Algorithm was used. For larger shapes like octagon and nonagon,
+This script takes the number of sides of the polygon as input and outputs the corresponding bitmap. For drawing the bitmap, Bresenham's Line Algorithm was used. For larger shapes like octagon and nonagon,
 the bitmaps are not very clear unless the size of the overall bitmap is made bigger.
 
 Contact:
