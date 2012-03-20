@@ -8,8 +8,9 @@ Contributions:
 Rachee Singh (PA, PLCC Course)
 Emaad Ahmed Manzoor (PA, PLCC Course)
 
-As a part of the PLCC course, students were asked to develop a parser (using flex and bison) which would detect regular polygons. This script was meant to aid the process of evaluation
-by generating input (regular polygonal shapes) to test students' code. 
+As a part of the PLCC course, students were asked to develop a parser (using flex and bison) which would detect regular
+polygons. This script was meant to aid the process of evaluation by generating input (regular polygonal shapes) to test
+students' code. 
 
 Usage:
 > python shape-generator.py -h
@@ -57,8 +58,9 @@ Example:
 000000000000000000000000000000
 
 Remarks:
-This script takes the number of sides of the polygon as input and outputs the corresponding bitmap. For drawing the bitmap, Bresenham's Line Algorithm was used. For larger shapes like octagon and nonagon,
-the bitmaps are not very clear unless the size of the overall bitmap is made bigger.
+This script takes the number of sides of the polygon as input and outputs the corresponding bitmap. For drawing the 
+bitmap, Bresenham's Line Algorithm was used. For larger shapes like octagon and nonagon, the bitmaps are not very 
+clear unless the size of the overall bitmap is made bigger.
 
 Contact:
 Please send over your comments to:
