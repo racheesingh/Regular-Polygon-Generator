@@ -1,0 +1,66 @@
+This script was written as a part of completion of PA duties for the course:
+Programming Languages and Compiler Contruction (PLCC), II Semester, 2012.
+Intructors: Mr. Ramprasad Joshi (Instructor-In-charge), Durgesh Samant
+
+Contributions:
+Rachee Singh (PA, PLCC Course)
+Emaad Ahmed Manzoor (PA, PLCC Course)
+
+As a part of the PLCC course, students were asked to develop a parser (using flex and bison)
+which would detect regular polygons. This script was meant to aid the process of evaluation
+by generating input (regular polygonal shapes) to test students' code. 
+
+Usage:
+> python shape-generator.py -h
+Usage: generator.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -n N, --sides=N       number of sides in the polygon
+  -r R, --radius=R      radius of circle into which the polygon is inscribed
+  -t THETA, --theta=THETA
+                        angle to rotate the polygon by (in degrees), for eg:
+                        90
+
+Example:
+> python generator.py -n 3 -r 10
+000000000000000000000000000000
+000000000000000000000000000000
+000000000000000000000000000000
+000000000000000000000000000000
+000000000000000000000000000000
+000000000010000000000000000000
+000000000011100000000000000000
+000000000010011000000000000000
+000000000010000100000000000000
+000000000010000011000000000000
+000000000010000000110000000000
+000000000010000000001000000000
+000000000010000000000110000000
+000000000010000000000001100000
+000000000010000000000000010000
+000000000010000000000001100000
+000000000010000000000110000000
+000000000010000000001000000000
+000000000010000000110000000000
+000000000010000011000000000000
+000000000010000100000000000000
+000000000010011000000000000000
+000000000011100000000000000000
+000000000010000000000000000000
+000000000000000000000000000000
+000000000000000000000000000000
+000000000000000000000000000000
+000000000000000000000000000000
+000000000000000000000000000000
+000000000000000000000000000000
+
+Remarks:
+This script takes the number of sides of the polygon as input and outputs the corresponding bitmap.
+For drawing the bitmap, Bresenham's Line Algorithm was used. For larger shapes like octagon and nonagon,
+the bitmaps are not very clear unless the size of the overall bitmap is made bigger.
+
+Contact:
+Please send over your comments to:
+rachee.singh@gmail.com
+emaadmanzoor@gmail.com
